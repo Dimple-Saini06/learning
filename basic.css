@@ -1,0 +1,40 @@
+h1{
+    text-align:center;
+    color : #ffffff;
+    text-shadow: 2px 2px 4px;
+    background-color: black;
+    height:50px;
+    padding:5px;
+    box-sizing:border-box;
+}
+h2{
+    border:2px solid black;
+    outline:medium ridge red;
+    outline-offset: 3px;
+    text-align:center;
+}
+
+p{
+    border:2px solid black;
+    text-align: justify;
+    width:300px;
+    padding: 5px;
+    margin:20px;
+    /* text-transform: capitalize; */
+    font-variant: small-caps;
+    line-height:1.5; 
+}
+
+h4{
+    border:2px solid black;
+    padding-top:15px;
+    width:300px;
+    height:50px;
+    text-align: center;
+    text-decoration: overline underline blueviolet;
+    letter-spacing: 5px;
+}
+b{
+    vertical-align: sub;
+}
+
