@@ -1,0 +1,15 @@
+table,th,td{
+    border:2px solid  black;
+    width:50%;
+    height:50px;
+    border-collapse: collapse;
+}
+
+td{
+    vertical-align: bottom;
+}
+
+td:hover{
+    background-color: blue;
+    color:white;
+}

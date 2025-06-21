@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:visited{
+    background-color:green;
+}
+
+a:link{
+    background-color :rgb(16, 16, 0);
+}
+
+a:hover{
+    background-color: hotpink;
+    text-decoration: none;
+}
