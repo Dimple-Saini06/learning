@@ -1,0 +1,15 @@
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.0;
+}
+.img2{
+    height:400px;
+    width:400px;
+}
+
+.img3{
+    height:500px;
+    width:500px;
+}

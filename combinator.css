@@ -1,0 +1,16 @@
+.div1 p{
+    background-color: rgb(169, 169, 76);
+}
+
+.div2 > p{
+    background-color: rgb(60, 60, 99);
+    color: #ffffff;
+}
+
+.div3 + p{
+    background-color: rgb(138, 241, 241);
+}
+
+.div4 ~ p{
+    background-color: coral;
+}

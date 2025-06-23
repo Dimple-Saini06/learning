@@ -1,0 +1,19 @@
+p{
+    display: none;
+    background-color: darkorange;
+    color:white;
+    height:70px;
+}
+
+div:hover p{
+    display : block; 
+    color:blue;
+    font-size:30px;
+    text-align:center;
+    padding-top:10px;
+}
+
+q:lang(ono){
+    quotes:"*""*";
+}
+

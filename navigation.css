@@ -1,0 +1,32 @@
+body{
+    margin:0;
+}
+ul{
+    margin:0px;
+    padding:0px;
+    width:25%;
+    height:100%;
+    list-style-type: none;
+    position:fixed;
+    background-color: rgb(169, 169, 169);
+}
+
+ul a{
+    display:block;
+    color:#000;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+li:hover{
+    background-color: rgba(2, 118, 21, 0.407);
+    color:#fff;
+}
+
+div{
+    margin-left:25%;
+    padding: 1px 16px;
+}
+
+::selection{
+    background-color: bisque;
+}

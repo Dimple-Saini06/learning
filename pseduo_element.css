@@ -1,0 +1,13 @@
+::selection{
+    color:blue;
+    background-color: deeppink;
+}
+
+p::first-letter{
+    font-size: larger;
+}
+
+p::first-line{
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}

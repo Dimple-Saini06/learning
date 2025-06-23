@@ -1,0 +1,16 @@
+.img1{
+    width:100px;
+    height:100px;
+    float:right;
+    margin-left:10px;
+}
+p{
+    text-align:justify;
+}
+
+.img2{
+    width:100px;
+    height:100px;
+    float:inherit;
+    margin-right:10px;
+}
