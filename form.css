@@ -1,0 +1,25 @@
+input[type="text"]{
+    padding: 5px;
+    margin:5px;
+    outline : none;
+}
+input[type="text"]:focus{
+    background-color: rgb(159, 205, 206);
+}
+
+input[type="radio"]{
+    margin-top:5px;
+    
+}
+
+input[type="checkbox"]{
+    margin-top:5px;
+}
+
+form{
+    margin-left : 20px;
+}
+
+textarea{
+    resize:none;
+}

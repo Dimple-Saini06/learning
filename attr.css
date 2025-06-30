@@ -1,0 +1,29 @@
+/* without using class and id */
+input[type = "button"]{
+    display:block;
+    height:50px;
+    width:100px;
+    padding:5px;
+    background-color: yellow;
+    font-size:medium;
+}
+
+/* attr selector */
+a[target]:hover{
+    color:red;
+    font-size: 250px;
+}
+
+/*attr contain specific word*/
+[class|="top"]{
+    color:rgb(31, 122, 42);
+    
+}
+
+[id^="h1-id"]{
+    color:brown;
+}
+
+[class$="p"]{
+    background-color:rgb(255, 247, 0);
+}

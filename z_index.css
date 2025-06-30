@@ -1,0 +1,31 @@
+div{
+    display: inline-block;
+    border : 3px solid black;
+    height: 100px;
+    width:100px;
+    
+}
+
+.div1{
+    background-color: blue;
+    position : relative;
+    top : 30px;
+    
+}
+
+.div2{
+    background-color: rgb(226, 43, 101);
+    position : absolute;
+    left:1px;
+    z-index:-1;
+}
+
+.div3{
+    background-color: brown;
+}
+
+.div4{
+    background-color: burlywood;
+
+    
+}

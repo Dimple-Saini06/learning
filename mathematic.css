@@ -1,0 +1,17 @@
+.box1{
+    height:200px;
+    width:200px;
+    background-color: blue;
+}
+
+.box2{
+    width:50%;
+    height:50%;    
+    background-color: rgb(0, 255, 119);
+}
+
+.box3{
+    width: max(20%, 200px);
+    height: max(20%, 200px);
+    background-color: chocolate;
+}

@@ -1,0 +1,12 @@
+.imp{
+    background-color: yellow;
+}
+
+#im{
+    background-color: aqua;
+}
+
+p{
+    background-color: brown !important;
+    color:#fff;
+}

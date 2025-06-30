@@ -1,0 +1,66 @@
+.img1{
+    width:300px;
+    height:150px;
+}
+.img2{
+    width:600px;
+    height:300px;
+}
+
+.dropdn{
+    position : relative;
+    display : inline-block;
+}
+
+.indropdn{
+    display : none;
+    position: absolute;
+    left:85%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index : 1;
+}
+
+.dropdn:hover .indropdn{
+    display:block;
+}
+
+/* this  is dropdown button */
+
+.btn{
+    position : relative;
+    display:inline-block;
+}
+
+button{
+    border:none;
+    background-color: chartreuse;
+    color:rgb(1, 1, 1);
+    padding : 16px;
+    font-size: 16px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.btnlink{
+    display : none;
+    position : absolute;
+}
+
+.btnlink a{
+    text-decoration: none;
+    display: block;
+    background-color: azure;
+    padding : 20px;
+}
+
+a:hover{
+    background-color:cornsilk;
+}
+.btn:hover .btnlink{
+    display:block;
+}
