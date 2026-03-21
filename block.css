@@ -12,6 +12,7 @@
     width:100px;
     background-color: rgb(226, 150, 43);
     border:2px solid black;
+    margin-top: 50px;
 }
 
 .c{
@@ -21,7 +22,7 @@
     padding:10px;
     background-color: rgb(226, 43, 89);
     border:2px solid black;
-    margin-right:10px;
+    margin-top:10px;
 }
 
 .d{
@@ -38,7 +39,7 @@
     display:inline-block;
     height:200px;
     width:200px;
-    margin:5px;
+    margin-top:15px;
     padding:5px;
     background-color: cadetblue;
 }
