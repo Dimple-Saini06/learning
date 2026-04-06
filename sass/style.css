@@ -1,0 +1,50 @@
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav li {
+  color: red;
+}
+
+.success {
+  background: blue;
+  color: #fff;
+}
+
+.alert {
+  background: green;
+  color: #fff;
+}
+
+.error {
+  background: red;
+  color: #fff;
+}
+
+.suc {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.ale {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.suc {
+  background-color: aquamarine;
+}
+
+.ale {
+  background-color: bisque;
+}
+
+.rect {
+  width: 62.5%;
+  height: 31.25%;
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
