@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+
+    display:grid;
+    background-color: rgb(103, 103, 167);
+    grid-template-columns: auto;
+    row-gap:20px;
+    padding:10px;
+}
+
+.container > div{
+    background-color: #f1f1f1;
+    border:1px solid black;
+    padding:20px;
+}
