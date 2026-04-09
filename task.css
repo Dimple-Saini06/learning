@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{  
+  display: flex;
+  justify-content: center;
+}
+
+.innerContainer1{
+    display : flex; 
+    flex-flow: row wrap;
+    width:1200px;
+    height : 200px;  
+}
+
+.wi200{ 
+    width:200px; 
+}
+
+.wi400{
+    width:400px;
+}
+
+.wi600{
+    width:600px;
+}
+
+.wi800{
+    width:800px;
+}
+
+.ro11{background-color: #F08080;}
+
+.ro12{background-color: #5C2020;}
+
+.ro21{background-color: #B829B8;}
+
+.ro22{background-color: rgb(77, 69, 130);}
+
+.ro23{background-color: #bb0a0a;}
+
+.ro31{background-color: #800b0b;}
+
+.ro32{background-color: #00ffaa;}
+
+.ro41{background-color: #febca4;}
+
+.ro42{background-color: rgb(255, 127, 80);}
+
+.ro51{background-color: rgb(109, 109, 109);}
+
+.ro52{background-color: rgb(137, 69, 69);}
+
+.ro53{background-color: rgba(40, 18, 4, 0.852);}
+
+@media screen and (max-width:600px){
+    .innerContainer1{
+        width:100%;
+    }
+    .wi200,.wi400,
+    .wi800{
+        width: 100% !important; 
+    }
+
+}
+
+@media (min-width: 601px) and (max-width : 850px){
+    .container{
+        padding-left : 150px;
+    }
+    .innerContainer1{
+        justify-content: center;
+    }
+    .wi800{
+        width:600px;
+    }
+
+    .wi600{
+        width:450px;
+    }
+
+    .wi400{
+        width:300px;
+    }
+
+    .wi200{
+        width:150px;
+    }
+}
+
+
+@media (min-width: 851px) and (max-width: 1000px) {
+    .container{
+        padding-left : 100px;
+    }
+
+    .innerContainer1{
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+   .wi800{
+        width:665px;
+    }
+
+    .wi600{
+        width:500px;
+    }
+
+    .wi400{
+        width:333px;
+    }
+
+    .wi200{
+        width:167px;
+    }
+}
