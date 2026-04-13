@@ -1,0 +1,12 @@
+*{
+    background: #ea626f  url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg) repeat-x;
+}
+h1{
+    /* background color of h1 */
+    background-color: rgb(25, 230, 199);
+    text-align: center;
+    border:2px double black;
+}
+p{
+    color:rgba(146, 31, 228, 0.9);
+}
