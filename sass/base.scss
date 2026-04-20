@@ -1,0 +1,58 @@
+@use "sass:math";
+$font-stack: 'Courier New', Courier, monospace;
+$primary-color : red;
+$secondary-color : green;
+
+.nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {  color: $primary-color;}
+}
+
+@mixin theme($theme : blue){
+    background: $theme;
+    color: #fff;
+}
+
+.success{
+    @include theme;
+}
+
+.alert{
+    @include theme($theme : green);
+}
+
+.error{
+    @include theme($theme : red);
+}
+
+%mix-add {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+%equal-heights {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.suc {
+    @extend %mix-add;
+    background-color: aquamarine;
+}
+
+.ale{
+    @extend %equal-heights;
+    background-color: bisque;
+}
+
+.rect{
+    width: math.div(600px, 960px) * 100%;
+    height: math.div(300px, 960px) * 100%;
+    background-color: $secondary-color;
+}
