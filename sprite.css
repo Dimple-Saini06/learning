@@ -1,0 +1,19 @@
+#blue{
+    background : url(sprite.png) 0 0;
+}
+
+#green{
+    background : url(sprite.png) -47px 0;
+}
+
+#pink{
+    background : url(sprite.png);
+}
+
+#yellow{
+    background : url(sprite.png);
+}
+
+#white{
+    background : url(sprite.png);
+}
